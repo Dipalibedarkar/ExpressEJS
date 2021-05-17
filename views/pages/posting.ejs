@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('../EJS/head'); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('../EJS/header'); %>
+</header>
+
+<main>
+  <div class="jumbotron">
+    <h1>Create a new Country</h1>
+    <form action="/api/countries" method="post">
+    <label for="country">Country: </label>
+    <input id="country" name="country" type="text" >
+    <label for="alpha2Code">Alpha 2 Code: </label>
+    <input id="alpha2Code" name="alpha2Code" type="text" >
+    <label for="alpha3Code">Alpha 3 Code: </label>
+    <input id="alpha3Code" name="alpha3Code" type="text" >
+    <label for="numeric">Numeric: </label>
+    <input id="numeric" name="numeric" type="text" >
+    <input type="submit" value="OK">
+  </form>
+  </div>
+</main>
+
+<footer>
+  <%- include('../EJS/footer'); %>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "country": "Thailand",
+    "alpha2Code": "TH",
+    "alpha3Code": "THA",
+    "numeric": "764",
+    "visited": false
+  },
+  {
+    "id": 2,
+    "country": "Indonesia",
+    "alpha2Code": "ID",
+    "alpha3Code": "IDN",
+    "numeric": "360",
+    "visited": false
+  },
+  {
+    "id": 3,
+    "country": "United States of America",
+    "alpha2Code": "US",
+    "alpha3Code": "USA",
+    "numeric": "840",
+    "visited": false
+  },
+  {
+    "id": 4,
+    "country": "France",
+    "alpha2Code": "FR",
+    "alpha3Code": "FRA",
+    "numeric": "250",
+    "visited": false
+  },
+  {
+    "id": 5,
+    "country": "Egypt",
+    "alpha2Code": "EG",
+    "alpha3Code": "EGY",
+    "numeric": "818",
+    "visited": false
+  }
+]
